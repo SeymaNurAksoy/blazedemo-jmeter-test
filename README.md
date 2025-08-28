@@ -11,7 +11,7 @@ Constant Timer → Her istek arası 5 saniye bekleme
 
 Loop Controller (2x) → URL1 / ve URL5 /vacation.html iki tur çalıştırılır
 
-XML Assertion → URL3 /password/reset için yanıt doğrulama
+Assertion → URL3 /password/reset için yanıt doğrulama
 
 Dinamik Label → URL2 /login label’ı içinde gün- ay- yıl gösterilir (dd-MM-YYYY)
 
@@ -25,16 +25,13 @@ Listeners (3 adet) → Summary Report, View Results Tree, Graph Results
   - URL1 → /
   - URL5 → /vacation.html
 - URL2 → /login (Label: dd-MM-YYYY)
-- URL3 → /password/reset (+ XML Assertion)
+- URL3 → /password/reset (+ Assertion)
 - URL4 → /register
 
 ### Listener’lar
 - Summary Report
 - View Results Tree
 - Graph Results
-
-
-
 
 
 ⚙️ Kurulum
@@ -67,5 +64,14 @@ jmeter -g results.jtl -o html-report
 Graph Results
 
 HTML Rapor
+
+ .\jmeter.bat -g C:\Users\aksoy\OneDrive\Masaüstü\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\results\result.jtl -o C:\Users\aksoy\OneDrive\Masaüstü\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\results\html_report
+
+<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/5aac442f-e21c-4ca1-9679-a039ae797e9a" />
+
+<img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/fdcc8cbf-8c11-45de-8144-31675acec650" />
+
+ <img width="1919" height="869" alt="image" src="https://github.com/user-attachments/assets/5c7200d1-e3d6-4a4f-917d-738cc93dcba4" />
+
 
 ✅ Bu test planı ile BlazeDemo üzerinde yük testi yapılabilir, grafiksel sonuçlar elde edilebilir ve HTML rapor üretilebilir.
