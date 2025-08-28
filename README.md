@@ -32,6 +32,7 @@ Listeners (3 adet) → Summary Report, View Results Tree, Graph Results
 - Summary Report
 - View Results Tree
 - Graph Results
+<img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/e7531490-05f9-4cc1-99e8-a94f6ac9d510" />
 
 
 ⚙️ Kurulum
